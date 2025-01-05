@@ -97,7 +97,7 @@ Dashboard zobrazený obsahuje 5 kľúčových vizualizácií:
   <em>Obrázok 3 Dashboard MovieLens datasetu</em>
 </p>
 
-### **Graf 1: Najlepšie hodnotené filmy (Top 10)
+### Graf 1: Najlepšie hodnotené filmy (Top 10)
 Tento dotaz zobrazuje 10 filmov s najvyšším priemerným hodnotením. Filmy sú zoradené podľa priemerného hodnotenia, pričom sú zahrnuté len tie, ktoré majú aspoň 10 hodnotení. To umožňuje identifikovať najlepšie hodnotené filmy medzi používateľmi.
 
 ```sql
@@ -118,7 +118,7 @@ ORDER BY
 LIMIT 10;
 ```
 
-### **Graf 2: Najviac používané tagy na filmy
+### Graf 2: Najviac používané tagy na filmy
 Tento dotaz ukazuje 10 najviac používaných tagov pre filmy. Tagy môžu pomôcť identifikovať trendy alebo obľúbené témy, ktoré sa objavujú vo filmoch, čo môže byť užitočné na kategorizovanie alebo odporúčanie filmov.
 
 ```sql
@@ -134,7 +134,7 @@ ORDER BY
 LIMIT 10;
 ```
 
-### **Graf 3: Počet filmov podľa žánru
+### Graf 3: Počet filmov podľa žánru
 Tento dotaz zobrazuje počet filmov v jednotlivých žánroch. Vykonáva sa rozklad žánrov a následné počítanie filmov v každom žánri, čím poskytuje prehľad o rozmanitosti filmov podľa žánru a najčastejšie sa vyskytujúcich žánroch.
 
 ```sql
@@ -155,7 +155,7 @@ ORDER BY
     num_movies DESC;
 ```
 
-### **Graf 4: Najaktívnejšia veková kategória podľa počtu hodnotení
+### Graf 4: Najaktívnejšia veková kategória podľa počtu hodnotení
 Tento dotaz ukazuje, ktorá veková kategória používateľov najviac hodnotí filmy. Je to užitočné na analýzu aktivity používateľov v rôznych vekových skupinách a môže pomôcť pri analýze demografických preferencií.
 
 ```sql
@@ -172,7 +172,7 @@ ORDER BY
     total_ratings DESC;
 ```
 
-### **Graf 5: Najlepšie hodnotené žánre
+### Graf 5: Najlepšie hodnotené žánre
 Tento dotaz zobrazuje 10 najlepšie hodnotených žánrov na základe priemerného hodnotenia a počtu hodnotení. Pomáha identifikovať, ktoré žánre majú najväčší vplyv na používateľov a ktoré žánre sú preferované, pokiaľ ide o kvalitu filmov.
 
 ```sql
